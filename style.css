@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img {
+    max-height: 40px;
+}
+@media (max-width: 767px) {
+    .navbar-nav.mr-auto {
+        text-align: center;
+    }
+
+    .navbar-nav.ml-auto {
+        text-align: right;
+    }
+}
+/* css for home */
+.cover-image {
+    position: relative;
+    height: 80vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/027/184/746/non_2x/black-woman-taking-notes-during-office-webinar-using-laptop-and-wearing-headphones-with-empty-space-free-photo.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+.content {
+    z-index: 1;
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.content p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* css for top categories */
+.card img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+
+/* css for experts */
+.expert{
+    background-color: rgb(49, 213, 213);
+}
+.font-weight{
+    font-weight: bold;
+}
+
+/* css for popular course */
+.card img {
+    height: 270px;
+    object-fit: cover;
+}
+
+
+/* css for footer */
+footer{
+    background-color: #060505;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #subscribe-btn {
+    color: white;
+    background-color: #09bb21;
+    cursor: pointer;
+  }
